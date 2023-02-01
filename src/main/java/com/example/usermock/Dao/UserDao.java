@@ -1,4 +1,6 @@
-package com.example.usermock.Models;
+package com.example.usermock.Dao;
+
+import com.example.usermock.Models.User;
 
 import java.util.List;
 

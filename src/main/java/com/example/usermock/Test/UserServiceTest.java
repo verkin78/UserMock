@@ -1,4 +1,4 @@
-package com.example.usermock.Services;
+package com.example.usermock.Test;
 
 import org.example.dao.UserDaoImpl;
 import org.example.models.User;

@@ -1,6 +1,8 @@
-package com.example.usermock.Models;
+package com.example.usermock.Services;
 
-import com.example.usermock.Services.UserService;
+import com.example.usermock.Models.User;
+import com.example.usermock.Dao.UserDao;
+import com.example.usermock.Dao.UserDaoImpl;
 
 public class UserServiceImpl implements UserService {
 
