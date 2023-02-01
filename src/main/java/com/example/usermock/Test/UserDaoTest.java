@@ -2,8 +2,6 @@ package com.example.usermock.Test;
 
 import com.example.usermock.Models.User;
 import com.example.usermock.Dao.UserDaoImpl;
-import org.example.dao.UserDaoImpl;
-import org.example.models.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

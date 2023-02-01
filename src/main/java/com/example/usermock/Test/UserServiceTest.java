@@ -1,8 +1,8 @@
 package com.example.usermock.Test;
 
-import org.example.dao.UserDaoImpl;
-import org.example.models.User;
-import org.example.services.UserServiceImpl;
+import com.example.usermock.Dao.UserDaoImpl;
+import com.example.usermock.Models.User;
+import com.example.usermock.Services.UserServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,15 +12,11 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
     private User user = new User("Юрий");
     private User user1 = new User();
-
-
     private UserServiceImpl userService;
-
 
     @Mock
     private UserDaoImpl userDao;

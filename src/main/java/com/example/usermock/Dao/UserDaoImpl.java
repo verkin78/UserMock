@@ -2,7 +2,6 @@ package com.example.usermock.Dao;
 
 import com.example.usermock.Dao.UserDao;
 import com.example.usermock.Models.User;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,6 @@ public class UserDaoImpl implements UserDao {
         users.add(new User("Veronika"));
         users.add(new User("Egor"));
     }
-
 
     @Override
     public String getUserByName(String name) {
