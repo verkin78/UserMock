@@ -10,7 +10,6 @@ public class UserServiceImpl implements UserService {
     public UserServiceImpl(UserDao userDao) {
         this.userDao = new UserDaoImpl();
     }
-
     @Override
     public Boolean checkUserExist(User user) {
         if (userDao.findAllUsers().contains(user)) {
