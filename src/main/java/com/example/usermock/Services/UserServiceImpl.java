@@ -7,7 +7,6 @@ import com.example.usermock.Dao.UserDaoImpl;
 public class UserServiceImpl implements UserService {
 
     private UserDao userDao;
-
     public UserServiceImpl(UserDao userDao) {
         this.userDao = new UserDaoImpl();
     }
